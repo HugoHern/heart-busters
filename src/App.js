@@ -2,6 +2,7 @@ import React from "react"
 import "./App.css"
 import  DatingCardStack from "./components/DatingCardStack.js"
 import styled from "@emotion/styled"
+import ReactPlayer from "react-player"
 
 export default function App() {
   const Wrapper = styled(DatingCardStack)`
@@ -35,7 +36,7 @@ export default function App() {
           🥞
         </Item>
         <Item data-value="donuts" whileTap={{ scale: 1.15 }}>
-          🍩
+          <div><ReactPlayer width='100px' height='100px'url='https://www.youtube.com/watch?v=3zgFRFom6uA'/></div>
         </Item>
       </Wrapper>
     </div>
