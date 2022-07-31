@@ -71,3 +71,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 used this sandbox: https://codesandbox.io/s/tinder-style-swipe-framer-motion-cq3f6?from-embed=&file=/src/styles.css
+using react-video library
